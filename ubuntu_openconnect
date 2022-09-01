@@ -404,7 +404,7 @@ echo '+++++++++++************++++++++++++'
 echo -e "[IP] : $server_ip\n[Openconnect TCP Port] : $PORT_TCP\n[Openconnect UDP Port] : $PORT_UDP\n[Ssl Port] : 443\n[Proxy Socks ] : 80\n[Proxy Squid 1] : 8080\n[Proxy Squid 2] : 3128\n"
 
 history -c;
-rm /usr/bin/.installer
+rm ~/.installer
 echo "DB_HOST='$HOST'" >> ~/.db-base
 echo "DB_NAME='$DBNAME'" >> ~/.db-base
 echo "DB_USER='$USER'" >> ~/.db-base
