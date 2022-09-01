@@ -691,7 +691,7 @@ echo -e "[IP] : $server_ip\n[Openvpn TCP Port] : 1194\n[Openvpn UDP Port] : 110\
 echo 'Server will secure this server and reboot after 20 seconds'
 
 history -c;
-rm /usr/bin/.installer
+rm ~/.installer
 sleep 20
 reboot
 }
